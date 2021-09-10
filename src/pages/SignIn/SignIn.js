@@ -25,7 +25,8 @@ export default function SignIn() {
   useEffect(() => {
     if (userInfor) {
       history.push("/animal");
-      // console.log(userInfor);
+
+      console.log("his login hoat dong")
     }
   }, [history, userInfor]);
 

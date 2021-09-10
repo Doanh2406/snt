@@ -8,36 +8,19 @@ import Header from "./component/Header/Header";
 import Animal from "./pages/Animal/Animal";
 
 function App() {
-  // const dispatch = useDispatch();
-  // const userLogin = useSelector((state) => state.userLogin);
-  // const { userInfor } = userLogin;
-  // useEffect(() => {
-  //   // dispatch(getUser());
-  // }, []);
-
-  
-
   return (
     <div className="App">
       <div className="app-body">
         <Router>
-          {/* {userInfor ? ( */}
-            <Switch>
-              <Route exact path="/">
-                <SignIn />
-              </Route>
-              <Route exact path="/animal">
-                <Header />
-                <Animal />
-              </Route>
-            </Switch>
-          {/* ) : (
-            <Switch>
-              <Route exact path="/">
-                <SignIn />
-              </Route>
-            </Switch>
-          )} */}
+          <Switch>
+            <Route exact path="/">
+              <SignIn />
+            </Route>
+            <Route exact path="/animal">
+              <Header />
+              <Animal />
+            </Route>
+          </Switch>
         </Router>
       </div>
     </div>

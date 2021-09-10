@@ -1,13 +1,15 @@
 .header-container {
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
+
     height: 50px;
     background-color: var(--main-bg-color);
-  
     overflow: hidden;
     padding: auto;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -12,6 +12,9 @@ function Header() {
   const hanldeLogout = () => {
     localStorage.removeItem("userInfor");
     history.push("/");
+
+
+    console.log("his logout hoat dong")
   };
   return (
     <div className="header-container">
