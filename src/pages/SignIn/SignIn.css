@@ -1,0 +1,120 @@
+.sign-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color:  var(--main-bg-color);
+    align-items: center;
+    justify-content: center;
+  }
+  .sign-form {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f4fe;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  .sign-form__left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .sign-form__left > p:first-child {
+    font-size: 32px;
+    font-style: bold;
+    color: black;
+  }
+  .sign-form__left > p{
+      color: gray;
+     margin-top: -20px;
+  }
+  .sign-form__input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-form__input > input {
+    font-size: 16px;
+    border: 1px solid #8f8f8f;
+    height: 40px;
+    width: 60%;
+  
+    padding: 5px;
+    padding-left: 30px;
+    outline: none;
+    border-radius: 10px;
+  
+    margin-top: 20px;
+    margin-bottom: 2px;
+  }
+  .sign-form__title {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px 0 10 5px;
+  }
+  .sign-form__title > span {
+    color: var(--main-bg-color);
+    margin-left: 5px;
+  }
+  .sign-form__title > span:hover {
+    color: rgba(255, 110, 64, 0.3);
+    cursor: pointer;
+  }
+  .sign-form__button-sign {
+    height: 65px;
+    font-size: 32px;
+    width: 50%;
+    margin: auto;
+    background-color:  var(--main-bg-color);
+  
+    border-radius: 10px;
+    border: var(--main-bg-color) solid 1px;
+    color: #f5f4fe;
+    cursor: pointer;
+  }
+  .sign-form__button-sign:active:hover {
+    color:  var(--main-bg-color);
+    background-color: #fff;
+  }
+  .sign-form__button-sign:hover{
+    background-color: rgba(255, 110, 64,.8);
+  }
+  
+  /* right SignIn */
+  .sign-form__line{
+    display: flex;
+    width: 1px;
+    height: 500;
+    background-color: #dedede;
+  }
+  
+  .sign-form__right{
+  
+  }
+  .sign-form__text{
+    /* color: #ff6e40; */
+    color: black;
+    display: block;
+  }
+  
+  .sign-form__text--large{
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--main-bg-color);
+  }
+  .sign-form__text--medium{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .sign-form__text--small{
+    font-size: 12px;
+    font-weight: 300;
+  }
+  
+  .error{
+    color:red;
+    font-size: 14px;
+  }
